@@ -1,0 +1,6 @@
+framework module Pods_Dota2HeroPicker {
+  umbrella header "Pods-Dota2HeroPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

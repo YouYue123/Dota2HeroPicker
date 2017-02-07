@@ -7,11 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10AA8ED56669F37C7F72AB83 /* libPods-Dota2HeroPicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9299E3439FF870F131E5BE6 /* libPods-Dota2HeroPicker.a */; };
-		61A3BD0A49368D8EB7FAD912 /* libPods-Dota2HeroPickerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36378B75C485FF5E912478B5 /* libPods-Dota2HeroPickerUITests.a */; };
-		7F41D2F5B1FDCED1789FB7A7 /* libPods-Dota2HeroPickerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D506D6E401C2918003BA3FFC /* libPods-Dota2HeroPickerTests.a */; };
+		477D314ABB0D3728700E324E /* Pods_Dota2HeroPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 618E723F07762CFF513F568B /* Pods_Dota2HeroPicker.framework */; };
+		8D85A2D498BB6B8EDC2F49C6 /* Pods_Dota2HeroPickerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB9C9696996F3DAD1B7FC6F /* Pods_Dota2HeroPickerTests.framework */; };
+		A46D3506ADD1BDABB33CA45A /* Pods_Dota2HeroPickerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E45ED3CA2201EF01EF7ACE1 /* Pods_Dota2HeroPickerUITests.framework */; };
 		CC51DB631E48B25800CB7B7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC51DB621E48B25800CB7B7A /* AppDelegate.swift */; };
-		CC51DB651E48B25800CB7B7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC51DB641E48B25800CB7B7A /* ViewController.swift */; };
 		CC51DB681E48B25800CB7B7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC51DB661E48B25800CB7B7A /* Main.storyboard */; };
 		CC51DB6A1E48B25800CB7B7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC51DB691E48B25800CB7B7A /* Assets.xcassets */; };
 		CC51DB6D1E48B25800CB7B7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC51DB6B1E48B25800CB7B7A /* LaunchScreen.storyboard */; };
@@ -19,6 +18,16 @@
 		CC51DB831E48B25800CB7B7A /* Dota2HeroPickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC51DB821E48B25800CB7B7A /* Dota2HeroPickerUITests.swift */; };
 		CC51DB9B1E48B4E600CB7B7A /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC51DB9A1E48B4E600CB7B7A /* Hero.swift */; };
 		CC51DB9D1E48B5A400CB7B7A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC51DB9C1E48B5A400CB7B7A /* Response.swift */; };
+		CC51DB9F1E48BC5B00CB7B7A /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC51DB9E1E48BC5B00CB7B7A /* Utilities.swift */; };
+		CC51DBA11E48BF5400CB7B7A /* Dota2HeroList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC51DBA01E48BF5400CB7B7A /* Dota2HeroList.storyboard */; };
+		CC51DBA31E48BFA100CB7B7A /* Dota2HeroPicker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC51DBA21E48BFA100CB7B7A /* Dota2HeroPicker.storyboard */; };
+		CC51DBA51E48C1BF00CB7B7A /* TabBarViewControlller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC51DBA41E48C1BF00CB7B7A /* TabBarViewControlller.swift */; };
+		CC51DBA71E48C29200CB7B7A /* TabBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC51DBA61E48C29200CB7B7A /* TabBarViewModel.swift */; };
+		CC51DBA91E4A051000CB7B7A /* HeroListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC51DBA81E4A051000CB7B7A /* HeroListCell.swift */; };
+		CC51DBAB1E4A052700CB7B7A /* HeroListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC51DBAA1E4A052700CB7B7A /* HeroListCell.xib */; };
+		CC51DBAD1E4A094E00CB7B7A /* HeroListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC51DBAC1E4A094E00CB7B7A /* HeroListViewController.swift */; };
+		CC51DBAF1E4A0CF900CB7B7A /* HeroListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC51DBAE1E4A0CF900CB7B7A /* HeroListViewModel.swift */; };
+		CC51DBB11E4A0FF200CB7B7A /* HeroDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC51DBB01E4A0FF200CB7B7A /* HeroDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,14 +50,15 @@
 /* Begin PBXFileReference section */
 		03383EBA4D054A78D5DF4660 /* Pods-Dota2HeroPickerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dota2HeroPickerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dota2HeroPickerTests/Pods-Dota2HeroPickerTests.release.xcconfig"; sourceTree = "<group>"; };
 		1B2299BE6DD7E4631DB8E0BC /* Pods-Dota2HeroPickerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dota2HeroPickerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dota2HeroPickerTests/Pods-Dota2HeroPickerTests.debug.xcconfig"; sourceTree = "<group>"; };
-		36378B75C485FF5E912478B5 /* libPods-Dota2HeroPickerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Dota2HeroPickerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		612815D61A72D9BCFE4EF08B /* Pods-Dota2HeroPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dota2HeroPicker.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dota2HeroPicker/Pods-Dota2HeroPicker.release.xcconfig"; sourceTree = "<group>"; };
+		618E723F07762CFF513F568B /* Pods_Dota2HeroPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dota2HeroPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64B08748108115ADF92D1534 /* Pods-Dota2HeroPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dota2HeroPicker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dota2HeroPicker/Pods-Dota2HeroPicker.debug.xcconfig"; sourceTree = "<group>"; };
+		7E45ED3CA2201EF01EF7ACE1 /* Pods_Dota2HeroPickerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dota2HeroPickerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96755CCFA94D7E4ED10A1B24 /* Pods-Dota2HeroPickerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dota2HeroPickerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dota2HeroPickerUITests/Pods-Dota2HeroPickerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ADB9C9696996F3DAD1B7FC6F /* Pods_Dota2HeroPickerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dota2HeroPickerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C141E81EFECB3804E9BD9DF8 /* Pods-Dota2HeroPickerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dota2HeroPickerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dota2HeroPickerUITests/Pods-Dota2HeroPickerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CC51DB5F1E48B25800CB7B7A /* Dota2HeroPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dota2HeroPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC51DB621E48B25800CB7B7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CC51DB641E48B25800CB7B7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CC51DB671E48B25800CB7B7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC51DB691E48B25800CB7B7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC51DB6C1E48B25800CB7B7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,8 +71,16 @@
 		CC51DB841E48B25800CB7B7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC51DB9A1E48B4E600CB7B7A /* Hero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
 		CC51DB9C1E48B5A400CB7B7A /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
-		D506D6E401C2918003BA3FFC /* libPods-Dota2HeroPickerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Dota2HeroPickerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9299E3439FF870F131E5BE6 /* libPods-Dota2HeroPicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Dota2HeroPicker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC51DB9E1E48BC5B00CB7B7A /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		CC51DBA01E48BF5400CB7B7A /* Dota2HeroList.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Dota2HeroList.storyboard; sourceTree = "<group>"; };
+		CC51DBA21E48BFA100CB7B7A /* Dota2HeroPicker.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Dota2HeroPicker.storyboard; sourceTree = "<group>"; };
+		CC51DBA41E48C1BF00CB7B7A /* TabBarViewControlller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewControlller.swift; sourceTree = "<group>"; };
+		CC51DBA61E48C29200CB7B7A /* TabBarViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewModel.swift; sourceTree = "<group>"; };
+		CC51DBA81E4A051000CB7B7A /* HeroListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroListCell.swift; sourceTree = "<group>"; };
+		CC51DBAA1E4A052700CB7B7A /* HeroListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeroListCell.xib; sourceTree = "<group>"; };
+		CC51DBAC1E4A094E00CB7B7A /* HeroListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroListViewController.swift; sourceTree = "<group>"; };
+		CC51DBAE1E4A0CF900CB7B7A /* HeroListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroListViewModel.swift; sourceTree = "<group>"; };
+		CC51DBB01E4A0FF200CB7B7A /* HeroDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10AA8ED56669F37C7F72AB83 /* libPods-Dota2HeroPicker.a in Frameworks */,
+				477D314ABB0D3728700E324E /* Pods_Dota2HeroPicker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F41D2F5B1FDCED1789FB7A7 /* libPods-Dota2HeroPickerTests.a in Frameworks */,
+				8D85A2D498BB6B8EDC2F49C6 /* Pods_Dota2HeroPickerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61A3BD0A49368D8EB7FAD912 /* libPods-Dota2HeroPickerUITests.a in Frameworks */,
+				A46D3506ADD1BDABB33CA45A /* Pods_Dota2HeroPickerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +187,8 @@
 			children = (
 				CC51DB661E48B25800CB7B7A /* Main.storyboard */,
 				CC51DB6B1E48B25800CB7B7A /* LaunchScreen.storyboard */,
+				CC51DBA01E48BF5400CB7B7A /* Dota2HeroList.storyboard */,
+				CC51DBA21E48BFA100CB7B7A /* Dota2HeroPicker.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -176,6 +196,8 @@
 		CC51DB911E48B28300CB7B7A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CC51DBA81E4A051000CB7B7A /* HeroListCell.swift */,
+				CC51DBAA1E4A052700CB7B7A /* HeroListCell.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -183,7 +205,8 @@
 		CC51DB921E48B28B00CB7B7A /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				CC51DB641E48B25800CB7B7A /* ViewController.swift */,
+				CC51DBA41E48C1BF00CB7B7A /* TabBarViewControlller.swift */,
+				CC51DBAC1E4A094E00CB7B7A /* HeroListViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -191,6 +214,8 @@
 		CC51DB931E48B29200CB7B7A /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				CC51DBA61E48C29200CB7B7A /* TabBarViewModel.swift */,
+				CC51DBAE1E4A0CF900CB7B7A /* HeroListViewModel.swift */,
 			);
 			name = ViewModels;
 			sourceTree = "<group>";
@@ -207,6 +232,7 @@
 		CC51DB951E48B2BB00CB7B7A /* DataManagers */ = {
 			isa = PBXGroup;
 			children = (
+				CC51DBB01E4A0FF200CB7B7A /* HeroDataManager.swift */,
 			);
 			name = DataManagers;
 			sourceTree = "<group>";
@@ -214,6 +240,7 @@
 		CC51DB961E48B2CE00CB7B7A /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				CC51DB9E1E48BC5B00CB7B7A /* Utilities.swift */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -236,9 +263,9 @@
 		EB6949B0A060C0CAFD1E21EC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E9299E3439FF870F131E5BE6 /* libPods-Dota2HeroPicker.a */,
-				D506D6E401C2918003BA3FFC /* libPods-Dota2HeroPickerTests.a */,
-				36378B75C485FF5E912478B5 /* libPods-Dota2HeroPickerUITests.a */,
+				618E723F07762CFF513F568B /* Pods_Dota2HeroPicker.framework */,
+				ADB9C9696996F3DAD1B7FC6F /* Pods_Dota2HeroPickerTests.framework */,
+				7E45ED3CA2201EF01EF7ACE1 /* Pods_Dota2HeroPickerUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -361,8 +388,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC51DB6D1E48B25800CB7B7A /* LaunchScreen.storyboard in Resources */,
+				CC51DBAB1E4A052700CB7B7A /* HeroListCell.xib in Resources */,
 				CC51DB6A1E48B25800CB7B7A /* Assets.xcassets in Resources */,
 				CC51DB681E48B25800CB7B7A /* Main.storyboard in Resources */,
+				CC51DBA11E48BF5400CB7B7A /* Dota2HeroList.storyboard in Resources */,
+				CC51DBA31E48BFA100CB7B7A /* Dota2HeroPicker.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,7 +545,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+			shellScript = "";
 		};
 		DFE39D7C5C02A0FB92F1F8D7 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -539,10 +569,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC51DBAD1E4A094E00CB7B7A /* HeroListViewController.swift in Sources */,
 				CC51DB9D1E48B5A400CB7B7A /* Response.swift in Sources */,
-				CC51DB651E48B25800CB7B7A /* ViewController.swift in Sources */,
 				CC51DB631E48B25800CB7B7A /* AppDelegate.swift in Sources */,
+				CC51DB9F1E48BC5B00CB7B7A /* Utilities.swift in Sources */,
+				CC51DBA91E4A051000CB7B7A /* HeroListCell.swift in Sources */,
+				CC51DBB11E4A0FF200CB7B7A /* HeroDataManager.swift in Sources */,
 				CC51DB9B1E48B4E600CB7B7A /* Hero.swift in Sources */,
+				CC51DBA71E48C29200CB7B7A /* TabBarViewModel.swift in Sources */,
+				CC51DBAF1E4A0CF900CB7B7A /* HeroListViewModel.swift in Sources */,
+				CC51DBA51E48C1BF00CB7B7A /* TabBarViewControlller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

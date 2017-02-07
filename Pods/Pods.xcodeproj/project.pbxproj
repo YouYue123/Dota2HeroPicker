@@ -7,146 +7,208 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02656C209F514D422FEC73350285E7B9 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A374AB1310EA4B32513CEB3F350671 /* SVRadialGradientLayer.m */; };
-		0BB96C2F2F620B0C7C778AD546B455A4 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D3444AE0273523AC57BAC6A7EBE004B0 /* SVProgressHUD.m */; };
-		1250CEC7521B79529CC26BF806857AF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
-		2E644E0D95F9BA5E416C0E2F36529D42 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACC64101FAE4862F8806DB02FC71B0E /* QuartzCore.framework */; };
-		3512929B59567428B9838512A015C5E9 /* Pods-Dota2HeroPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EAE34D30A044AC961621A2E4CF98B9 /* Pods-Dota2HeroPicker-dummy.m */; };
-		47511F0426EA5CA7972987997CD27BFE /* Pods-Dota2HeroPickerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCB36106C970A8F9A953400157E9FB8 /* Pods-Dota2HeroPickerTests-dummy.m */; };
-		496A667C04597D2A2CB5CB2CF7C66BB9 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C68F19C7FDB89739A12A754AC192B9 /* SVIndefiniteAnimatedView.m */; };
-		49E2A9E189A435A7EE407C83453274A8 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = DBAD9287DEE246626CE463AB766658E4 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4E08FABC3F9414700098EC9EDE9CE69D /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 68F7D46BED1E968333C3A6BF1D08EF35 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		85608DA408BBFC3877300F6EBDCC510F /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = DD6F6957AD861C2D16D4AAF6524973A8 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B652D7A9619BB8A4F5A940ECACFD63D /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = C447657581C0A5726D1B490667A418D4 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8BCBE7EB31331B0151EF707D2743D1E1 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C80D8A3D824F9A8BECF1041F91261A4 /* SVProgressAnimatedView.m */; };
-		A2FB2A1B61694994800D63DF061F0214 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
-		C06146F80F1F45A26487E4EA8B75E3B0 /* Pods-Dota2HeroPickerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2C865C901A1DB9FB4B755F83D724FF /* Pods-Dota2HeroPickerUITests-dummy.m */; };
-		C9607C8C147D800554C05B39B630B3D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
-		E17F2A40BD9E4A2AFD94D92C39D3694D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
-		F29955139CB6125777A566862B22F6DA /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6073EEDABEA90F4218E48202444AB6 /* SVProgressHUD-dummy.m */; };
+		08FF259C6155E94F486CCFAB289793D5 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = E530C2724BB924C7305D7129E4FB4279 /* SVProgressAnimatedView.m */; };
+		0EA21838FC8318149C28B7A3770DAF2B /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFC9466B44B10AC80636A166CF31B59 /* SVProgressHUD-dummy.m */; };
+		116E2F4AEB7B1558C6CF0E0C41821FDC /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EBC15F265A9E6216240A1FE4F715399 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DCE82E0272FA7DC5CCC4B30CA811A11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
+		23F6A90E4E550490B508BA38468A45EB /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = B74C972A7473935F18FD828ABF05F870 /* SVIndefiniteAnimatedView.m */; };
+		27C857D90D767492F1A4927D00F3465D /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F8163E0CFCEE771C336921C99C61B5B /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EDD05FAAAA83149F2E13486A346727F /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A010174D5F907BD86F5F369375F21B57 /* SwiftyJSON-dummy.m */; };
+		486641059F575C4A22703EB1AB32A65C /* Pods-Dota2HeroPickerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD841EE70C2BE2BB4A8CCD1E036BC75 /* Pods-Dota2HeroPickerUITests-dummy.m */; };
+		4F6DB11F27491AC14DC33C8E9A30BABD /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CBA6E7EEAAF9B05F6B04E9D10690C498 /* SVProgressHUD.bundle */; };
+		53110C795C6DA1DBFEEB3B605D015971 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
+		59BC5207CA24947FD5E2394154B064E4 /* Pods-Dota2HeroPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6634B0091C38FBC169EDEECFA87C8087 /* Pods-Dota2HeroPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F57B08817064A533D91479C880EC6E /* Pods-Dota2HeroPickerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D725D5FE909F09259E06CF6C391A0FF2 /* Pods-Dota2HeroPickerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A116A75ED74A246C6227F8341E7C088 /* Pods-Dota2HeroPickerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9273AAD55964AABD2B3D43E58D161A0 /* Pods-Dota2HeroPickerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92A2E970CC1D50D511AA759E964998B3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACC64101FAE4862F8806DB02FC71B0E /* QuartzCore.framework */; };
+		98F86838A5E07B29D231C4E2164517E8 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BCE7B0A7AB5F197D28DEBBBF9B9A794 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C3AF1D1CE35BC10E0F968513BAB670B /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = CE26D40AC022DD04D13DABF9D8944E20 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D77E28338BAA49D6466638B6235CC87 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E06D761AB62B1386CA90EDA02445D0 /* SwiftyJSON.swift */; };
+		A90180C6BE6298CCFB9FE4826DEDC4D0 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF09F5BC882ECB7ED3BBD7790F988262 /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B28B403D59C2A4BBF60699052FF188FA /* Pods-Dota2HeroPickerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C5ACE762E0214E98ABBDC8D92FDC88 /* Pods-Dota2HeroPickerTests-dummy.m */; };
+		CF575FE77AEA1E94233735E81FFB3E92 /* Pods-Dota2HeroPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E96204595A40492E27FCA47DB7ED348 /* Pods-Dota2HeroPicker-dummy.m */; };
+		CFE574A6EE508E43ED5B1BDEBF3D0038 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A330D97262B7D50A7A70C34413952451 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D110C9F6DF2237CC4C5C93112BAEF99E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
+		DCC827FDDEA7140E6A63005522446D49 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0A2A43AF1D40F1E3C8D731541B44D6 /* SVProgressHUD.m */; };
+		DEDCDC3EBC4309C895B52819DDE60A08 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4E44C8FF5842D4C1F08BCF9242E78F /* SVRadialGradientLayer.m */; };
+		FA8D78EDF267FFA9D18249DEB4B0227F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
+		FFE77865F94852F66CC91942D59DF732 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8B652AC5064E0C84C840664E9DB526D6 /* PBXContainerItemProxy */ = {
+		9ADC097C3897BEBA91A91261545BA231 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E68EA97CDF302F3CB9FE5AF9B29223DB;
+			remoteGlobalIDString = DF88494258D1BE2C6813BB258CBB4967;
+			remoteInfo = SwiftyJSON;
+		};
+		A71CA797FFF419FE60207093D8BBC607 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C0F5798A486C643B59C044881E14074;
 			remoteInfo = SVProgressHUD;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2D619B9ACB8981FDEB8B6C16926AD452 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
-		322DED186DE21D52D1B40D9C5101BB93 /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSVProgressHUD.a; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0828C00D10F2107D47E348A5B279D209 /* Pods-Dota2HeroPickerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dota2HeroPickerTests.release.xcconfig"; sourceTree = "<group>"; };
+		0F9CBDA45B96BBCC6E57EB5206B16C47 /* Pods-Dota2HeroPickerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Dota2HeroPickerTests.modulemap"; sourceTree = "<group>"; };
+		10770EBEFFA369899A0F460887651C17 /* Pods-Dota2HeroPickerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Dota2HeroPickerTests-frameworks.sh"; sourceTree = "<group>"; };
+		11950D6DA6A9202251FB7F243A6DFA71 /* Pods-Dota2HeroPickerUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Dota2HeroPickerUITests-resources.sh"; sourceTree = "<group>"; };
+		16C5ACE762E0214E98ABBDC8D92FDC88 /* Pods-Dota2HeroPickerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Dota2HeroPickerTests-dummy.m"; sourceTree = "<group>"; };
+		19B72A5AEDA3CF59004641C484D746F9 /* Pods-Dota2HeroPickerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Dota2HeroPickerTests-resources.sh"; sourceTree = "<group>"; };
+		1C2305EEC24B06E673A28DA66917A085 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EFB976575A57FE4480C36411E92B219 /* Pods-Dota2HeroPickerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Dota2HeroPickerUITests.modulemap"; sourceTree = "<group>"; };
+		2F3E329958798B0A86F45CE2C73F1A05 /* Pods-Dota2HeroPickerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Dota2HeroPickerUITests-frameworks.sh"; sourceTree = "<group>"; };
+		306C6FBA52C793B2CA4E332B7C4340A6 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		339A9131B586495877EFBB866EBD943D /* Pods-Dota2HeroPicker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Dota2HeroPicker-acknowledgements.plist"; sourceTree = "<group>"; };
+		38119270DFE6CDE4450104208C90ECFC /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
 		3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		424F6FB54AAC5979C43051148471BF6C /* Pods-Dota2HeroPicker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Dota2HeroPicker-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5573EACFB5E36EF73A2E2FBC7219BC96 /* Pods-Dota2HeroPickerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Dota2HeroPickerTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		57BB8593D361063E028B1091B13F48BB /* Pods-Dota2HeroPickerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dota2HeroPickerUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		5AB74B4B8320C99EF7EB819BE4C3843B /* Pods-Dota2HeroPickerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Dota2HeroPickerTests-resources.sh"; sourceTree = "<group>"; };
-		6055E78B742F1CB1B227012C5E6C0532 /* Pods-Dota2HeroPickerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dota2HeroPickerUITests.release.xcconfig"; sourceTree = "<group>"; };
-		6167C20D3243544265625A519B4C7581 /* libPods-Dota2HeroPicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Dota2HeroPicker.a"; path = "libPods-Dota2HeroPicker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		64C68F19C7FDB89739A12A754AC192B9 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
-		6685C4391F453F06EA276550D5E77D0F /* Pods-Dota2HeroPicker-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Dota2HeroPicker-resources.sh"; sourceTree = "<group>"; };
-		668FE37BDD28D87F9DCEAF30DE37B302 /* Pods-Dota2HeroPickerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Dota2HeroPickerTests-frameworks.sh"; sourceTree = "<group>"; };
-		68F7D46BED1E968333C3A6BF1D08EF35 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
-		6A6073EEDABEA90F4218E48202444AB6 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		7639CFC0D8B53A181379B3D35CF6B409 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
-		80EAE34D30A044AC961621A2E4CF98B9 /* Pods-Dota2HeroPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Dota2HeroPicker-dummy.m"; sourceTree = "<group>"; };
-		850CCEFBE36AAF840B643B3A35DFB347 /* Pods-Dota2HeroPicker-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Dota2HeroPicker-frameworks.sh"; sourceTree = "<group>"; };
-		86E3DC48E40F8C3C553801CB0080D74D /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		88D170484A2CB4754056051CC65B3798 /* Pods-Dota2HeroPickerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dota2HeroPickerTests.release.xcconfig"; sourceTree = "<group>"; };
-		8F2C865C901A1DB9FB4B755F83D724FF /* Pods-Dota2HeroPickerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Dota2HeroPickerUITests-dummy.m"; sourceTree = "<group>"; };
+		3E96204595A40492E27FCA47DB7ED348 /* Pods-Dota2HeroPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Dota2HeroPicker-dummy.m"; sourceTree = "<group>"; };
+		43228A498D1A327AE6E53CAC93DCCF40 /* Pods_Dota2HeroPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Dota2HeroPicker.framework; path = "Pods-Dota2HeroPicker.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BFC9466B44B10AC80636A166CF31B59 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		54EB777B6AD5E02C9943C3C9DF28DF47 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58B2DC10FBAC4886C4FEC863C770625A /* Pods-Dota2HeroPicker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Dota2HeroPicker-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5BCE7B0A7AB5F197D28DEBBBF9B9A794 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		5D0A2A43AF1D40F1E3C8D731541B44D6 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		5FF91DB1ABC03171C56921F3907E67D5 /* Pods-Dota2HeroPickerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Dota2HeroPickerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		61E0E63169AF024AD9B29718F19E97EB /* Pods-Dota2HeroPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dota2HeroPicker.release.xcconfig"; sourceTree = "<group>"; };
+		6634B0091C38FBC169EDEECFA87C8087 /* Pods-Dota2HeroPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Dota2HeroPicker-umbrella.h"; sourceTree = "<group>"; };
+		6828AADE289C2AB88554EEF268120090 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		691410F373D0AC1EB5B20D05E6D9497C /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F695F754BCD39A90FAF3B822E9B2440 /* Pods-Dota2HeroPickerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Dota2HeroPickerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7051C8905C49E0AA2867ECD5473C7B7A /* Pods-Dota2HeroPicker-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Dota2HeroPicker-resources.sh"; sourceTree = "<group>"; };
+		7F8163E0CFCEE771C336921C99C61B5B /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		851FF7C8E2DE74F34CE3B647161394F3 /* Pods-Dota2HeroPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dota2HeroPicker.debug.xcconfig"; sourceTree = "<group>"; };
+		8595A8EE433999D0F653A2F49F1BA421 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		8CCC273E8E943957037ADE2E21094EC6 /* Pods-Dota2HeroPickerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dota2HeroPickerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8EBC15F265A9E6216240A1FE4F715399 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9A1F7A7C816DEC05B060824F4B29123D /* Pods-Dota2HeroPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dota2HeroPicker.debug.xcconfig"; sourceTree = "<group>"; };
-		9C80D8A3D824F9A8BECF1041F91261A4 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
-		A618CD8E07460EA89475143C7C035CDD /* Pods-Dota2HeroPickerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Dota2HeroPickerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		ABFE2EEDB6C05B577F75C56F83A0332A /* Pods-Dota2HeroPickerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dota2HeroPickerTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B22745DF02D8725E718F306683783295 /* Pods-Dota2HeroPickerUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Dota2HeroPickerUITests-resources.sh"; sourceTree = "<group>"; };
+		974F72835C4135445A905F19FEAF2B84 /* Pods_Dota2HeroPickerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Dota2HeroPickerUITests.framework; path = "Pods-Dota2HeroPickerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C5BE0B9E4073CF76184E3A73701FFAC /* Pods-Dota2HeroPickerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Dota2HeroPickerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A010174D5F907BD86F5F369375F21B57 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		A330D97262B7D50A7A70C34413952451 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		A985C8992D4C5409C8C2E6F2EBEBEE4E /* Pods-Dota2HeroPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Dota2HeroPicker.modulemap"; sourceTree = "<group>"; };
+		B020216000A3D4D915EDFBE6CB2CF52D /* Pods-Dota2HeroPickerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dota2HeroPickerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B74C972A7473935F18FD828ABF05F870 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
 		BACC64101FAE4862F8806DB02FC71B0E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		BBCB36106C970A8F9A953400157E9FB8 /* Pods-Dota2HeroPickerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Dota2HeroPickerTests-dummy.m"; sourceTree = "<group>"; };
-		BE15649C92716A80AEC35FA4BAA6A4C1 /* Pods-Dota2HeroPicker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Dota2HeroPicker-acknowledgements.plist"; sourceTree = "<group>"; };
-		C447657581C0A5726D1B490667A418D4 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
-		C55BF36094697CF8F9C296A02B3C761B /* Pods-Dota2HeroPickerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Dota2HeroPickerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CF16C0CDE19AC755F9A20B13994EDCD7 /* Pods-Dota2HeroPickerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Dota2HeroPickerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D3444AE0273523AC57BAC6A7EBE004B0 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
-		D3D2334634E9AF24C72CAEC5034F037F /* Pods-Dota2HeroPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dota2HeroPicker.release.xcconfig"; sourceTree = "<group>"; };
-		DBAD9287DEE246626CE463AB766658E4 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
-		DD6F6957AD861C2D16D4AAF6524973A8 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
-		E6830D58DF6A953B5DE9385C37E08948 /* libPods-Dota2HeroPickerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Dota2HeroPickerUITests.a"; path = "libPods-Dota2HeroPickerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6A374AB1310EA4B32513CEB3F350671 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
-		EA4DB206CFF3D3C854E9C560F9C174BE /* libPods-Dota2HeroPickerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Dota2HeroPickerTests.a"; path = "libPods-Dota2HeroPickerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4A2340CFB5A22C4C9BB04557B0BC813 /* Pods-Dota2HeroPickerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Dota2HeroPickerUITests-frameworks.sh"; sourceTree = "<group>"; };
+		BCD841EE70C2BE2BB4A8CCD1E036BC75 /* Pods-Dota2HeroPickerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Dota2HeroPickerUITests-dummy.m"; sourceTree = "<group>"; };
+		BD73A25C3A707E3DD6DFCE49600C4877 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		C0E06D761AB62B1386CA90EDA02445D0 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		CBA6E7EEAAF9B05F6B04E9D10690C498 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		CC017232152FF3EA377DFC7E62AFB249 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE26D40AC022DD04D13DABF9D8944E20 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		D3B83CB04A02CB45025896042C451B71 /* Pods-Dota2HeroPickerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dota2HeroPickerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D3E9B84D55BCC641981D8550FC1688E2 /* Pods_Dota2HeroPickerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Dota2HeroPickerTests.framework; path = "Pods-Dota2HeroPickerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5EB94AE9160B42B4E9D45486BC13490 /* Pods-Dota2HeroPicker-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Dota2HeroPicker-frameworks.sh"; sourceTree = "<group>"; };
+		D725D5FE909F09259E06CF6C391A0FF2 /* Pods-Dota2HeroPickerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Dota2HeroPickerUITests-umbrella.h"; sourceTree = "<group>"; };
+		D784DA33B6AD8B265DF8581FB991135A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2F90E93FF0AF5D9DD412D7D582BFB85 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E530C2724BB924C7305D7129E4FB4279 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		E9273AAD55964AABD2B3D43E58D161A0 /* Pods-Dota2HeroPickerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Dota2HeroPickerTests-umbrella.h"; sourceTree = "<group>"; };
+		EB4E44C8FF5842D4C1F08BCF9242E78F /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		EE144A6CD671FE3A01FE2C1BAA0FF934 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		F4DFBFEF6817D4093AC4743AE7BA47A4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC518481A2E3398FCD9BF8E5C7FCFC4 /* Pods-Dota2HeroPickerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Dota2HeroPickerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FF09F5BC882ECB7ED3BBD7790F988262 /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3820D69AFCC39D621D3A6C4838CB0E41 /* Frameworks */ = {
+		0DF9FEB8623636CC7C54EDC505EEE604 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9607C8C147D800554C05B39B630B3D0 /* Foundation.framework in Frameworks */,
+				FFE77865F94852F66CC91942D59DF732 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF4C61F0587AE9F2071294AB853FA02E /* Frameworks */ = {
+		14E03BE7AF9E392F70EBA7D00D5C74CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E17F2A40BD9E4A2AFD94D92C39D3694D /* Foundation.framework in Frameworks */,
+				D110C9F6DF2237CC4C5C93112BAEF99E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECFD433B11731DE82D1134486F6044EB /* Frameworks */ = {
+		5820AB2EE57A8D524E92E9501FD16239 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1250CEC7521B79529CC26BF806857AF9 /* Foundation.framework in Frameworks */,
-				2E644E0D95F9BA5E416C0E2F36529D42 /* QuartzCore.framework in Frameworks */,
+				1DCE82E0272FA7DC5CCC4B30CA811A11 /* Foundation.framework in Frameworks */,
+				92A2E970CC1D50D511AA759E964998B3 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F5B8540740A60404071C5529EDB1F3F7 /* Frameworks */ = {
+		7479E3AFFCF85B3E33B528F45B820D89 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2FB2A1B61694994800D63DF061F0214 /* Foundation.framework in Frameworks */,
+				53110C795C6DA1DBFEEB3B605D015971 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB5ECEF1E7CCA3D69154D0A8D083DA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8D78EDF267FFA9D18249DEB4B0227F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		035CB6C836B78EB37C4E6C442FF8BB1E /* Resources */ = {
+		08034BF72FE30B44BE461F5E5F55CA35 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2D619B9ACB8981FDEB8B6C16926AD452 /* SVProgressHUD.bundle */,
+				E2F90E93FF0AF5D9DD412D7D582BFB85 /* Info.plist */,
+				38119270DFE6CDE4450104208C90ECFC /* SVProgressHUD.modulemap */,
+				306C6FBA52C793B2CA4E332B7C4340A6 /* SVProgressHUD.xcconfig */,
+				4BFC9466B44B10AC80636A166CF31B59 /* SVProgressHUD-dummy.m */,
+				8595A8EE433999D0F653A2F49F1BA421 /* SVProgressHUD-prefix.pch */,
+				FF09F5BC882ECB7ED3BBD7790F988262 /* SVProgressHUD-umbrella.h */,
 			);
-			name = Resources;
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
 			sourceTree = "<group>";
 		};
-		120F00580AC2D80B957E266DEA75C67E /* Targets Support Files */ = {
+		0F3309567651C5240A795C33CEA83B9A /* SwiftyJSON */ = {
 			isa = PBXGroup;
 			children = (
-				250D96669AE27FAC3BC4FFF825EF1F8B /* Pods-Dota2HeroPicker */,
-				D67274F7D21F25E9F39EA721803EA527 /* Pods-Dota2HeroPickerTests */,
-				A6E1656F13BCA1DF6AB047C804F18834 /* Pods-Dota2HeroPickerUITests */,
+				C0E06D761AB62B1386CA90EDA02445D0 /* SwiftyJSON.swift */,
+				77A9C33EEB75ADFF4ED13777E5C0E610 /* Support Files */,
 			);
-			name = "Targets Support Files";
+			name = SwiftyJSON;
+			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
-		250D96669AE27FAC3BC4FFF825EF1F8B /* Pods-Dota2HeroPicker */ = {
+		20044DA0C309195D22D53918C93F40D3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				424F6FB54AAC5979C43051148471BF6C /* Pods-Dota2HeroPicker-acknowledgements.markdown */,
-				BE15649C92716A80AEC35FA4BAA6A4C1 /* Pods-Dota2HeroPicker-acknowledgements.plist */,
-				80EAE34D30A044AC961621A2E4CF98B9 /* Pods-Dota2HeroPicker-dummy.m */,
-				850CCEFBE36AAF840B643B3A35DFB347 /* Pods-Dota2HeroPicker-frameworks.sh */,
-				6685C4391F453F06EA276550D5E77D0F /* Pods-Dota2HeroPicker-resources.sh */,
-				9A1F7A7C816DEC05B060824F4B29123D /* Pods-Dota2HeroPicker.debug.xcconfig */,
-				D3D2334634E9AF24C72CAEC5034F037F /* Pods-Dota2HeroPicker.release.xcconfig */,
+				A4BC44C4482ED10F6CB951F7B8095CBE /* SVProgressHUD */,
+				0F3309567651C5240A795C33CEA83B9A /* SwiftyJSON */,
 			);
-			name = "Pods-Dota2HeroPicker";
-			path = "Target Support Files/Pods-Dota2HeroPicker";
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		30AEFBFAD04AF5FE428B48DA9B1963BE /* Pods-Dota2HeroPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4DFBFEF6817D4093AC4743AE7BA47A4 /* Info.plist */,
+				0F9CBDA45B96BBCC6E57EB5206B16C47 /* Pods-Dota2HeroPickerTests.modulemap */,
+				9C5BE0B9E4073CF76184E3A73701FFAC /* Pods-Dota2HeroPickerTests-acknowledgements.markdown */,
+				FAC518481A2E3398FCD9BF8E5C7FCFC4 /* Pods-Dota2HeroPickerTests-acknowledgements.plist */,
+				16C5ACE762E0214E98ABBDC8D92FDC88 /* Pods-Dota2HeroPickerTests-dummy.m */,
+				10770EBEFFA369899A0F460887651C17 /* Pods-Dota2HeroPickerTests-frameworks.sh */,
+				19B72A5AEDA3CF59004641C484D746F9 /* Pods-Dota2HeroPickerTests-resources.sh */,
+				E9273AAD55964AABD2B3D43E58D161A0 /* Pods-Dota2HeroPickerTests-umbrella.h */,
+				D3B83CB04A02CB45025896042C451B71 /* Pods-Dota2HeroPickerTests.debug.xcconfig */,
+				0828C00D10F2107D47E348A5B279D209 /* Pods-Dota2HeroPickerTests.release.xcconfig */,
+			);
+			name = "Pods-Dota2HeroPickerTests";
+			path = "Target Support Files/Pods-Dota2HeroPickerTests";
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -157,12 +219,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		74588D48F629C3D7E6B7E12AB83072D6 /* Pods */ = {
+		77A9C33EEB75ADFF4ED13777E5C0E610 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				95EB61328BDA1070876281302DF94ACF /* SVProgressHUD */,
+				D784DA33B6AD8B265DF8581FB991135A /* Info.plist */,
+				EE144A6CD671FE3A01FE2C1BAA0FF934 /* SwiftyJSON.modulemap */,
+				6828AADE289C2AB88554EEF268120090 /* SwiftyJSON.xcconfig */,
+				A010174D5F907BD86F5F369375F21B57 /* SwiftyJSON-dummy.m */,
+				BD73A25C3A707E3DD6DFCE49600C4877 /* SwiftyJSON-prefix.pch */,
+				A330D97262B7D50A7A70C34413952451 /* SwiftyJSON-umbrella.h */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -170,65 +238,66 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				74588D48F629C3D7E6B7E12AB83072D6 /* Pods */,
-				92387585994389F554F90094786152D6 /* Products */,
-				120F00580AC2D80B957E266DEA75C67E /* Targets Support Files */,
+				20044DA0C309195D22D53918C93F40D3 /* Pods */,
+				A559D6EF833AFFE8F0A0CA469921D5BA /* Products */,
+				FBFF62CBCF6F8CA0E109D3E0933C82B9 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		92387585994389F554F90094786152D6 /* Products */ = {
+		927D0F4C7358C10DE0EF9D753109A465 /* Pods-Dota2HeroPickerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				6167C20D3243544265625A519B4C7581 /* libPods-Dota2HeroPicker.a */,
-				EA4DB206CFF3D3C854E9C560F9C174BE /* libPods-Dota2HeroPickerTests.a */,
-				E6830D58DF6A953B5DE9385C37E08948 /* libPods-Dota2HeroPickerUITests.a */,
-				322DED186DE21D52D1B40D9C5101BB93 /* libSVProgressHUD.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		95EB61328BDA1070876281302DF94ACF /* SVProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				DD6F6957AD861C2D16D4AAF6524973A8 /* SVIndefiniteAnimatedView.h */,
-				64C68F19C7FDB89739A12A754AC192B9 /* SVIndefiniteAnimatedView.m */,
-				C447657581C0A5726D1B490667A418D4 /* SVProgressAnimatedView.h */,
-				9C80D8A3D824F9A8BECF1041F91261A4 /* SVProgressAnimatedView.m */,
-				DBAD9287DEE246626CE463AB766658E4 /* SVProgressHUD.h */,
-				D3444AE0273523AC57BAC6A7EBE004B0 /* SVProgressHUD.m */,
-				68F7D46BED1E968333C3A6BF1D08EF35 /* SVRadialGradientLayer.h */,
-				E6A374AB1310EA4B32513CEB3F350671 /* SVRadialGradientLayer.m */,
-				035CB6C836B78EB37C4E6C442FF8BB1E /* Resources */,
-				BDE1D145F4A334224EB232EECAD63B61 /* Support Files */,
-			);
-			name = SVProgressHUD;
-			path = SVProgressHUD;
-			sourceTree = "<group>";
-		};
-		A6E1656F13BCA1DF6AB047C804F18834 /* Pods-Dota2HeroPickerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				C55BF36094697CF8F9C296A02B3C761B /* Pods-Dota2HeroPickerUITests-acknowledgements.markdown */,
-				CF16C0CDE19AC755F9A20B13994EDCD7 /* Pods-Dota2HeroPickerUITests-acknowledgements.plist */,
-				8F2C865C901A1DB9FB4B755F83D724FF /* Pods-Dota2HeroPickerUITests-dummy.m */,
-				F4A2340CFB5A22C4C9BB04557B0BC813 /* Pods-Dota2HeroPickerUITests-frameworks.sh */,
-				B22745DF02D8725E718F306683783295 /* Pods-Dota2HeroPickerUITests-resources.sh */,
-				57BB8593D361063E028B1091B13F48BB /* Pods-Dota2HeroPickerUITests.debug.xcconfig */,
-				6055E78B742F1CB1B227012C5E6C0532 /* Pods-Dota2HeroPickerUITests.release.xcconfig */,
+				CC017232152FF3EA377DFC7E62AFB249 /* Info.plist */,
+				1EFB976575A57FE4480C36411E92B219 /* Pods-Dota2HeroPickerUITests.modulemap */,
+				6F695F754BCD39A90FAF3B822E9B2440 /* Pods-Dota2HeroPickerUITests-acknowledgements.markdown */,
+				5FF91DB1ABC03171C56921F3907E67D5 /* Pods-Dota2HeroPickerUITests-acknowledgements.plist */,
+				BCD841EE70C2BE2BB4A8CCD1E036BC75 /* Pods-Dota2HeroPickerUITests-dummy.m */,
+				2F3E329958798B0A86F45CE2C73F1A05 /* Pods-Dota2HeroPickerUITests-frameworks.sh */,
+				11950D6DA6A9202251FB7F243A6DFA71 /* Pods-Dota2HeroPickerUITests-resources.sh */,
+				D725D5FE909F09259E06CF6C391A0FF2 /* Pods-Dota2HeroPickerUITests-umbrella.h */,
+				8CCC273E8E943957037ADE2E21094EC6 /* Pods-Dota2HeroPickerUITests.debug.xcconfig */,
+				B020216000A3D4D915EDFBE6CB2CF52D /* Pods-Dota2HeroPickerUITests.release.xcconfig */,
 			);
 			name = "Pods-Dota2HeroPickerUITests";
 			path = "Target Support Files/Pods-Dota2HeroPickerUITests";
 			sourceTree = "<group>";
 		};
-		BDE1D145F4A334224EB232EECAD63B61 /* Support Files */ = {
+		A4BC44C4482ED10F6CB951F7B8095CBE /* SVProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				7639CFC0D8B53A181379B3D35CF6B409 /* SVProgressHUD.xcconfig */,
-				6A6073EEDABEA90F4218E48202444AB6 /* SVProgressHUD-dummy.m */,
-				86E3DC48E40F8C3C553801CB0080D74D /* SVProgressHUD-prefix.pch */,
+				8EBC15F265A9E6216240A1FE4F715399 /* SVIndefiniteAnimatedView.h */,
+				B74C972A7473935F18FD828ABF05F870 /* SVIndefiniteAnimatedView.m */,
+				7F8163E0CFCEE771C336921C99C61B5B /* SVProgressAnimatedView.h */,
+				E530C2724BB924C7305D7129E4FB4279 /* SVProgressAnimatedView.m */,
+				CE26D40AC022DD04D13DABF9D8944E20 /* SVProgressHUD.h */,
+				5D0A2A43AF1D40F1E3C8D731541B44D6 /* SVProgressHUD.m */,
+				5BCE7B0A7AB5F197D28DEBBBF9B9A794 /* SVRadialGradientLayer.h */,
+				EB4E44C8FF5842D4C1F08BCF9242E78F /* SVRadialGradientLayer.m */,
+				B58CFDE784E24889740B73ECAF510CE5 /* Resources */,
+				08034BF72FE30B44BE461F5E5F55CA35 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SVProgressHUD";
+			name = SVProgressHUD;
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		A559D6EF833AFFE8F0A0CA469921D5BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43228A498D1A327AE6E53CAC93DCCF40 /* Pods_Dota2HeroPicker.framework */,
+				D3E9B84D55BCC641981D8550FC1688E2 /* Pods_Dota2HeroPickerTests.framework */,
+				974F72835C4135445A905F19FEAF2B84 /* Pods_Dota2HeroPickerUITests.framework */,
+				1C2305EEC24B06E673A28DA66917A085 /* SVProgressHUD.framework */,
+				691410F373D0AC1EB5B20D05E6D9497C /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B58CFDE784E24889740B73ECAF510CE5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CBA6E7EEAAF9B05F6B04E9D10690C498 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		C7AB6F27FF3606F9360547F8F1977A63 /* iOS */ = {
@@ -240,44 +309,91 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D67274F7D21F25E9F39EA721803EA527 /* Pods-Dota2HeroPickerTests */ = {
+		E2E3686B8D0C1AD30E68A723072C1FC7 /* Pods-Dota2HeroPicker */ = {
 			isa = PBXGroup;
 			children = (
-				A618CD8E07460EA89475143C7C035CDD /* Pods-Dota2HeroPickerTests-acknowledgements.markdown */,
-				5573EACFB5E36EF73A2E2FBC7219BC96 /* Pods-Dota2HeroPickerTests-acknowledgements.plist */,
-				BBCB36106C970A8F9A953400157E9FB8 /* Pods-Dota2HeroPickerTests-dummy.m */,
-				668FE37BDD28D87F9DCEAF30DE37B302 /* Pods-Dota2HeroPickerTests-frameworks.sh */,
-				5AB74B4B8320C99EF7EB819BE4C3843B /* Pods-Dota2HeroPickerTests-resources.sh */,
-				ABFE2EEDB6C05B577F75C56F83A0332A /* Pods-Dota2HeroPickerTests.debug.xcconfig */,
-				88D170484A2CB4754056051CC65B3798 /* Pods-Dota2HeroPickerTests.release.xcconfig */,
+				54EB777B6AD5E02C9943C3C9DF28DF47 /* Info.plist */,
+				A985C8992D4C5409C8C2E6F2EBEBEE4E /* Pods-Dota2HeroPicker.modulemap */,
+				58B2DC10FBAC4886C4FEC863C770625A /* Pods-Dota2HeroPicker-acknowledgements.markdown */,
+				339A9131B586495877EFBB866EBD943D /* Pods-Dota2HeroPicker-acknowledgements.plist */,
+				3E96204595A40492E27FCA47DB7ED348 /* Pods-Dota2HeroPicker-dummy.m */,
+				D5EB94AE9160B42B4E9D45486BC13490 /* Pods-Dota2HeroPicker-frameworks.sh */,
+				7051C8905C49E0AA2867ECD5473C7B7A /* Pods-Dota2HeroPicker-resources.sh */,
+				6634B0091C38FBC169EDEECFA87C8087 /* Pods-Dota2HeroPicker-umbrella.h */,
+				851FF7C8E2DE74F34CE3B647161394F3 /* Pods-Dota2HeroPicker.debug.xcconfig */,
+				61E0E63169AF024AD9B29718F19E97EB /* Pods-Dota2HeroPicker.release.xcconfig */,
 			);
-			name = "Pods-Dota2HeroPickerTests";
-			path = "Target Support Files/Pods-Dota2HeroPickerTests";
+			name = "Pods-Dota2HeroPicker";
+			path = "Target Support Files/Pods-Dota2HeroPicker";
+			sourceTree = "<group>";
+		};
+		FBFF62CBCF6F8CA0E109D3E0933C82B9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2E3686B8D0C1AD30E68A723072C1FC7 /* Pods-Dota2HeroPicker */,
+				30AEFBFAD04AF5FE428B48DA9B1963BE /* Pods-Dota2HeroPickerTests */,
+				927D0F4C7358C10DE0EF9D753109A465 /* Pods-Dota2HeroPickerUITests */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B69DEF4E8C1DD2DEE54BA4BAE5D84075 /* Headers */ = {
+		07348337F641D05BAAF3388B00FA0BBA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85608DA408BBFC3877300F6EBDCC510F /* SVIndefiniteAnimatedView.h in Headers */,
-				8B652D7A9619BB8A4F5A940ECACFD63D /* SVProgressAnimatedView.h in Headers */,
-				49E2A9E189A435A7EE407C83453274A8 /* SVProgressHUD.h in Headers */,
-				4E08FABC3F9414700098EC9EDE9CE69D /* SVRadialGradientLayer.h in Headers */,
+				59BC5207CA24947FD5E2394154B064E4 /* Pods-Dota2HeroPicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5777BE5CB9AEFA22FE750E0733B80370 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88F57B08817064A533D91479C880EC6E /* Pods-Dota2HeroPickerUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73AD283AD42E415E9E527839C0F035F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A116A75ED74A246C6227F8341E7C088 /* Pods-Dota2HeroPickerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986AA12B7513868B04160D4F328ED687 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116E2F4AEB7B1558C6CF0E0C41821FDC /* SVIndefiniteAnimatedView.h in Headers */,
+				27C857D90D767492F1A4927D00F3465D /* SVProgressAnimatedView.h in Headers */,
+				A90180C6BE6298CCFB9FE4826DEDC4D0 /* SVProgressHUD-umbrella.h in Headers */,
+				9C3AF1D1CE35BC10E0F968513BAB670B /* SVProgressHUD.h in Headers */,
+				98F86838A5E07B29D231C4E2164517E8 /* SVRadialGradientLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB933309BDE309A7990A3C3C7234250 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE574A6EE508E43ED5B1BDEBF3D0038 /* SwiftyJSON-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1ADFFFDE87C7D15C912619C95BC0C4D8 /* Pods-Dota2HeroPickerUITests */ = {
+		061ED1867D839EFDBCD9D9D888F0EEC4 /* Pods-Dota2HeroPickerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5EBDD049C5A643D6B4C5E38C72DBD6B2 /* Build configuration list for PBXNativeTarget "Pods-Dota2HeroPickerUITests" */;
+			buildConfigurationList = 3D1222E6DE30A9792CAFE7FB5747B402 /* Build configuration list for PBXNativeTarget "Pods-Dota2HeroPickerUITests" */;
 			buildPhases = (
-				90C975B7242F8A0FC62E6B809EF9CBA1 /* Sources */,
-				BF4C61F0587AE9F2071294AB853FA02E /* Frameworks */,
+				BA18568105B0ED1B20FFFDAB2AA9E756 /* Sources */,
+				14E03BE7AF9E392F70EBA7D00D5C74CB /* Frameworks */,
+				5777BE5CB9AEFA22FE750E0733B80370 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -285,49 +401,36 @@
 			);
 			name = "Pods-Dota2HeroPickerUITests";
 			productName = "Pods-Dota2HeroPickerUITests";
-			productReference = E6830D58DF6A953B5DE9385C37E08948 /* libPods-Dota2HeroPickerUITests.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 974F72835C4135445A905F19FEAF2B84 /* Pods_Dota2HeroPickerUITests.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		342F3E5787A305A7333467A8F9E42380 /* Pods-Dota2HeroPickerTests */ = {
+		45116825D4491E518A86AB388E79E64F /* Pods-Dota2HeroPicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C40F33812F80435FC49B61D8B7429762 /* Build configuration list for PBXNativeTarget "Pods-Dota2HeroPickerTests" */;
+			buildConfigurationList = B3A3D81B2056AB70D1FD7F18DBCBE49D /* Build configuration list for PBXNativeTarget "Pods-Dota2HeroPicker" */;
 			buildPhases = (
-				43454EF81BC263F57F75FF1C6C058AB5 /* Sources */,
-				3820D69AFCC39D621D3A6C4838CB0E41 /* Frameworks */,
+				EF6B3EECDB4448DD07A002128EFFD8AD /* Sources */,
+				7479E3AFFCF85B3E33B528F45B820D89 /* Frameworks */,
+				07348337F641D05BAAF3388B00FA0BBA /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = "Pods-Dota2HeroPickerTests";
-			productName = "Pods-Dota2HeroPickerTests";
-			productReference = EA4DB206CFF3D3C854E9C560F9C174BE /* libPods-Dota2HeroPickerTests.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		416E1ABDDC2B9EFDCC9C28D33D5C4BE6 /* Pods-Dota2HeroPicker */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D88D98DFF93BF8E9C4D47610046323E9 /* Build configuration list for PBXNativeTarget "Pods-Dota2HeroPicker" */;
-			buildPhases = (
-				AAD9B3264D88D73B28FE2A522FF896D2 /* Sources */,
-				F5B8540740A60404071C5529EDB1F3F7 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D911E96B56AED71DE98F06B97F5DEB69 /* PBXTargetDependency */,
+				2645E0F8BDAADEF3ABB1564DB4738EB6 /* PBXTargetDependency */,
+				6AF79360875A2BAEACA55C3DFB70D2A3 /* PBXTargetDependency */,
 			);
 			name = "Pods-Dota2HeroPicker";
 			productName = "Pods-Dota2HeroPicker";
-			productReference = 6167C20D3243544265625A519B4C7581 /* libPods-Dota2HeroPicker.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 43228A498D1A327AE6E53CAC93DCCF40 /* Pods_Dota2HeroPicker.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		E68EA97CDF302F3CB9FE5AF9B29223DB /* SVProgressHUD */ = {
+		9C0F5798A486C643B59C044881E14074 /* SVProgressHUD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2FEB821321B8925E79FEB52E97D680C5 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildConfigurationList = 702CA46DD44532B8B85A14FBB1E3555E /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
 			buildPhases = (
-				2137D5126E53B295F67816A8B2C1FFEA /* Sources */,
-				ECFD433B11731DE82D1134486F6044EB /* Frameworks */,
-				B69DEF4E8C1DD2DEE54BA4BAE5D84075 /* Headers */,
+				72D43C723523EAF4242C60BFCE5D2CE0 /* Sources */,
+				5820AB2EE57A8D524E92E9501FD16239 /* Frameworks */,
+				986AA12B7513868B04160D4F328ED687 /* Headers */,
+				009885B4A58507F00B8C28EA3ECB9A54 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -335,8 +438,42 @@
 			);
 			name = SVProgressHUD;
 			productName = SVProgressHUD;
-			productReference = 322DED186DE21D52D1B40D9C5101BB93 /* libSVProgressHUD.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 1C2305EEC24B06E673A28DA66917A085 /* SVProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D56F3692F265EA85316BC3E803466662 /* Pods-Dota2HeroPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9058940969CB8E70FEABD775AB3EB78 /* Build configuration list for PBXNativeTarget "Pods-Dota2HeroPickerTests" */;
+			buildPhases = (
+				7FA7D0BD8DDD16B06AE87B50C37F955A /* Sources */,
+				0DF9FEB8623636CC7C54EDC505EEE604 /* Frameworks */,
+				73AD283AD42E415E9E527839C0F035F0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Dota2HeroPickerTests";
+			productName = "Pods-Dota2HeroPickerTests";
+			productReference = D3E9B84D55BCC641981D8550FC1688E2 /* Pods_Dota2HeroPickerTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF88494258D1BE2C6813BB258CBB4967 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF7E6DD83728A5F546493959C0CC128C /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				0F5B02B8799314C9910F79CE9B66F8B4 /* Sources */,
+				FDB5ECEF1E7CCA3D69154D0A8D083DA5 /* Frameworks */,
+				DCB933309BDE309A7990A3C3C7234250 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = 691410F373D0AC1EB5B20D05E6D9497C /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -355,111 +492,329 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 92387585994389F554F90094786152D6 /* Products */;
+			productRefGroup = A559D6EF833AFFE8F0A0CA469921D5BA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				416E1ABDDC2B9EFDCC9C28D33D5C4BE6 /* Pods-Dota2HeroPicker */,
-				342F3E5787A305A7333467A8F9E42380 /* Pods-Dota2HeroPickerTests */,
-				1ADFFFDE87C7D15C912619C95BC0C4D8 /* Pods-Dota2HeroPickerUITests */,
-				E68EA97CDF302F3CB9FE5AF9B29223DB /* SVProgressHUD */,
+				45116825D4491E518A86AB388E79E64F /* Pods-Dota2HeroPicker */,
+				D56F3692F265EA85316BC3E803466662 /* Pods-Dota2HeroPickerTests */,
+				061ED1867D839EFDBCD9D9D888F0EEC4 /* Pods-Dota2HeroPickerUITests */,
+				9C0F5798A486C643B59C044881E14074 /* SVProgressHUD */,
+				DF88494258D1BE2C6813BB258CBB4967 /* SwiftyJSON */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		009885B4A58507F00B8C28EA3ECB9A54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F6DB11F27491AC14DC33C8E9A30BABD /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		2137D5126E53B295F67816A8B2C1FFEA /* Sources */ = {
+		0F5B02B8799314C9910F79CE9B66F8B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				496A667C04597D2A2CB5CB2CF7C66BB9 /* SVIndefiniteAnimatedView.m in Sources */,
-				8BCBE7EB31331B0151EF707D2743D1E1 /* SVProgressAnimatedView.m in Sources */,
-				F29955139CB6125777A566862B22F6DA /* SVProgressHUD-dummy.m in Sources */,
-				0BB96C2F2F620B0C7C778AD546B455A4 /* SVProgressHUD.m in Sources */,
-				02656C209F514D422FEC73350285E7B9 /* SVRadialGradientLayer.m in Sources */,
+				2EDD05FAAAA83149F2E13486A346727F /* SwiftyJSON-dummy.m in Sources */,
+				9D77E28338BAA49D6466638B6235CC87 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43454EF81BC263F57F75FF1C6C058AB5 /* Sources */ = {
+		72D43C723523EAF4242C60BFCE5D2CE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47511F0426EA5CA7972987997CD27BFE /* Pods-Dota2HeroPickerTests-dummy.m in Sources */,
+				23F6A90E4E550490B508BA38468A45EB /* SVIndefiniteAnimatedView.m in Sources */,
+				08FF259C6155E94F486CCFAB289793D5 /* SVProgressAnimatedView.m in Sources */,
+				0EA21838FC8318149C28B7A3770DAF2B /* SVProgressHUD-dummy.m in Sources */,
+				DCC827FDDEA7140E6A63005522446D49 /* SVProgressHUD.m in Sources */,
+				DEDCDC3EBC4309C895B52819DDE60A08 /* SVRadialGradientLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90C975B7242F8A0FC62E6B809EF9CBA1 /* Sources */ = {
+		7FA7D0BD8DDD16B06AE87B50C37F955A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C06146F80F1F45A26487E4EA8B75E3B0 /* Pods-Dota2HeroPickerUITests-dummy.m in Sources */,
+				B28B403D59C2A4BBF60699052FF188FA /* Pods-Dota2HeroPickerTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AAD9B3264D88D73B28FE2A522FF896D2 /* Sources */ = {
+		BA18568105B0ED1B20FFFDAB2AA9E756 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3512929B59567428B9838512A015C5E9 /* Pods-Dota2HeroPicker-dummy.m in Sources */,
+				486641059F575C4A22703EB1AB32A65C /* Pods-Dota2HeroPickerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6B3EECDB4448DD07A002128EFFD8AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF575FE77AEA1E94233735E81FFB3E92 /* Pods-Dota2HeroPicker-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D911E96B56AED71DE98F06B97F5DEB69 /* PBXTargetDependency */ = {
+		2645E0F8BDAADEF3ABB1564DB4738EB6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SVProgressHUD;
-			target = E68EA97CDF302F3CB9FE5AF9B29223DB /* SVProgressHUD */;
-			targetProxy = 8B652AC5064E0C84C840664E9DB526D6 /* PBXContainerItemProxy */;
+			target = 9C0F5798A486C643B59C044881E14074 /* SVProgressHUD */;
+			targetProxy = A71CA797FFF419FE60207093D8BBC607 /* PBXContainerItemProxy */;
+		};
+		6AF79360875A2BAEACA55C3DFB70D2A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = DF88494258D1BE2C6813BB258CBB4967 /* SwiftyJSON */;
+			targetProxy = 9ADC097C3897BEBA91A91261545BA231 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		392F5BA18468383BCCC1EDAE2EFABF7F /* Release */ = {
+		00A558C3D04C246413BC68F6AE2DE491 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7639CFC0D8B53A181379B3D35CF6B409 /* SVProgressHUD.xcconfig */;
+			baseConfigurationReference = D3B83CB04A02CB45025896042C451B71 /* Pods-Dota2HeroPickerTests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Dota2HeroPickerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Dota2HeroPickerTests/Pods-Dota2HeroPickerTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Dota2HeroPickerTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		157456E159706C3CB1CF93AD958B5F00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6828AADE289C2AB88554EEF268120090 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1E5CBD8FC922FA46725F95DED6B20869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 851FF7C8E2DE74F34CE3B647161394F3 /* Pods-Dota2HeroPicker.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Dota2HeroPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Dota2HeroPicker/Pods-Dota2HeroPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Dota2HeroPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		22F44E7D950BBFB50A71ECEA849C662E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 306C6FBA52C793B2CA4E332B7C4340A6 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SVProgressHUD;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		3A03B3B525776A81DA7DC62578729894 /* Release */ = {
+		46E943B6025D5957F18A77AE2BAF9C0C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3D2334634E9AF24C72CAEC5034F037F /* Pods-Dota2HeroPicker.release.xcconfig */;
+			baseConfigurationReference = 61E0E63169AF024AD9B29718F19E97EB /* Pods-Dota2HeroPicker.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Dota2HeroPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Dota2HeroPicker/Pods-Dota2HeroPicker.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Pods_Dota2HeroPicker;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59A68CF6781F176E824DE7D39E3023D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CCC273E8E943957037ADE2E21094EC6 /* Pods-Dota2HeroPickerUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Dota2HeroPickerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Dota2HeroPickerUITests/Pods-Dota2HeroPickerUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Dota2HeroPickerUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		62648DDEDDDF5580C900B975A5ACE53F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6828AADE289C2AB88554EEF268120090 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -503,121 +858,107 @@
 			};
 			name = Release;
 		};
-		78B15C4E503B7884CB436611FACB28DD /* Debug */ = {
+		6EC7D81CF59F9767473D4CC98239FCBA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7639CFC0D8B53A181379B3D35CF6B409 /* SVProgressHUD.xcconfig */;
+			baseConfigurationReference = 0828C00D10F2107D47E348A5B279D209 /* Pods-Dota2HeroPickerTests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Dota2HeroPickerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Dota2HeroPickerTests/Pods-Dota2HeroPickerTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Dota2HeroPickerTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8FB4A101E808DD31FE0042641E16355D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B020216000A3D4D915EDFBE6CB2CF52D /* Pods-Dota2HeroPickerUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Dota2HeroPickerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Dota2HeroPickerUITests/Pods-Dota2HeroPickerUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Dota2HeroPickerUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CADBEB33D540C8A3B6B8A98E058E303F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 306C6FBA52C793B2CA4E332B7C4340A6 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SVProgressHUD;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		82BDAC3A64605909A79789CF3DA54485 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6055E78B742F1CB1B227012C5E6C0532 /* Pods-Dota2HeroPickerUITests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		891C2DA99FC5FB05340163E79E3F9E9C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88D170484A2CB4754056051CC65B3798 /* Pods-Dota2HeroPickerTests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		9C240A23F150944CAAE1E6CD7E4EFEE3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABFE2EEDB6C05B577F75C56F83A0332A /* Pods-Dota2HeroPickerTests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		B0C0599DF4E2A3A87913AACE168E10C6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57BB8593D361063E028B1091B13F48BB /* Pods-Dota2HeroPickerUITests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
 		};
 		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -663,29 +1004,6 @@
 			};
 			name = Debug;
 		};
-		E7A0D631D3BABDEEF3630EFD039D00FC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A1F7A7C816DEC05B060824F4B29123D /* Pods-Dota2HeroPicker.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -698,38 +1016,47 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2FEB821321B8925E79FEB52E97D680C5 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+		3D1222E6DE30A9792CAFE7FB5747B402 /* Build configuration list for PBXNativeTarget "Pods-Dota2HeroPickerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				78B15C4E503B7884CB436611FACB28DD /* Debug */,
-				392F5BA18468383BCCC1EDAE2EFABF7F /* Release */,
+				59A68CF6781F176E824DE7D39E3023D0 /* Debug */,
+				8FB4A101E808DD31FE0042641E16355D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5EBDD049C5A643D6B4C5E38C72DBD6B2 /* Build configuration list for PBXNativeTarget "Pods-Dota2HeroPickerUITests" */ = {
+		702CA46DD44532B8B85A14FBB1E3555E /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B0C0599DF4E2A3A87913AACE168E10C6 /* Debug */,
-				82BDAC3A64605909A79789CF3DA54485 /* Release */,
+				22F44E7D950BBFB50A71ECEA849C662E /* Debug */,
+				CADBEB33D540C8A3B6B8A98E058E303F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C40F33812F80435FC49B61D8B7429762 /* Build configuration list for PBXNativeTarget "Pods-Dota2HeroPickerTests" */ = {
+		B3A3D81B2056AB70D1FD7F18DBCBE49D /* Build configuration list for PBXNativeTarget "Pods-Dota2HeroPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9C240A23F150944CAAE1E6CD7E4EFEE3 /* Debug */,
-				891C2DA99FC5FB05340163E79E3F9E9C /* Release */,
+				1E5CBD8FC922FA46725F95DED6B20869 /* Debug */,
+				46E943B6025D5957F18A77AE2BAF9C0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D88D98DFF93BF8E9C4D47610046323E9 /* Build configuration list for PBXNativeTarget "Pods-Dota2HeroPicker" */ = {
+		B9058940969CB8E70FEABD775AB3EB78 /* Build configuration list for PBXNativeTarget "Pods-Dota2HeroPickerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E7A0D631D3BABDEEF3630EFD039D00FC /* Debug */,
-				3A03B3B525776A81DA7DC62578729894 /* Release */,
+				00A558C3D04C246413BC68F6AE2DE491 /* Debug */,
+				6EC7D81CF59F9767473D4CC98239FCBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF7E6DD83728A5F546493959C0CC128C /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				157456E159706C3CB1CF93AD958B5F00 /* Debug */,
+				62648DDEDDDF5580C900B975A5ACE53F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

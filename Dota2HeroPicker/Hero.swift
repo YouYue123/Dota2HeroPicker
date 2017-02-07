@@ -15,9 +15,9 @@ class Hero: NSObject {
     
     init?(_ response: Response?){
         
-        if let json = JSON(response),
+        if let json = Utils.convertResponseToDictionary(response),
             let name = json["name"] as? String,
-            let winningRate = json["winningRate"] as? String{
+            let winningRate = json["winningRate"] as? Float {
             
             self.name = name
             self.winningRate = winningRate
