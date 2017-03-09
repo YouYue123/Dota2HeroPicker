@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class HeroListCell: UITableViewCell{
+class HeroListCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         

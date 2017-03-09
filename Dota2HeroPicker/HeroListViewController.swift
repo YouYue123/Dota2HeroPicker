@@ -62,9 +62,6 @@ extension HeroListViewController: UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = viewModel.setupTableViewCell(indexPath,tableView: tableView)
-//        if let cell = cell as? HeroListCell {
-//            let testGesture = UITapGestureRecognizer(target: self, action)
-//        }
         return cell
     }
 }

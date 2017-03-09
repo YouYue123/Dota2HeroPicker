@@ -13,9 +13,11 @@
         <scene sceneID="o6U-JW-GPD">
             <objects>
                 <tabBarController id="bDI-DS-WcL" customClass="TabBarViewController" customModule="Dota2HeroPicker" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="b7p-UE-nG6">
+                    <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="b7p-UE-nG6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                     </tabBar>
                     <connections>
                         <segue destination="DKQ-2O-6UE" kind="relationship" relationship="viewControllers" id="6y6-wo-c4q"/>
